@@ -34,7 +34,7 @@ module.exports = {
   target: 'web',
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
-    port: 5000,
+    port: 3000,
     compress: true,
     hot: true
   }

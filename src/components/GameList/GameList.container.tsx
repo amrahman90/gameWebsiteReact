@@ -21,7 +21,6 @@ const GameListContainer = (): ReactElement => {
 				},
 			})
 			.then(res => {
-				console.log(res.data,"$$$$$$$$$$$$$$$$$");
 				setGames(res.data)
 				
 			})
